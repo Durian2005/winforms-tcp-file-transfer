@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89291785-43CF-43D2-983E-DC8A7FE30F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferCore", "src\TransferCore\TransferCore.csproj", "{B6219D74-8AA8-4C76-985A-B09D9BEEF2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferServer", "src\FileTransferServer\FileTransferServer.csproj", "{A519BF04-3850-48A0-A9B1-C723D0594972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferClient", "src\FileTransferClient\FileTransferClient.csproj", "{0CA414BB-8B89-4FD4-8CE1-3856E582BAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{A5CD03AB-941C-4BE8-87CA-9200E2486704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferSelfTest", "tools\TransferSelfTest\TransferSelfTest.csproj", "{F42DA611-4DF7-41E4-BD7B-EF8645DA7887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiIntegrationTest", "tools\GuiIntegrationTest\GuiIntegrationTest.csproj", "{87383EB6-1950-4366-A31C-0FB852960D68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6219D74-8AA8-4C76-985A-B09D9BEEF2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6219D74-8AA8-4C76-985A-B09D9BEEF2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6219D74-8AA8-4C76-985A-B09D9BEEF2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6219D74-8AA8-4C76-985A-B09D9BEEF2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A519BF04-3850-48A0-A9B1-C723D0594972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A519BF04-3850-48A0-A9B1-C723D0594972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A519BF04-3850-48A0-A9B1-C723D0594972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A519BF04-3850-48A0-A9B1-C723D0594972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA414BB-8B89-4FD4-8CE1-3856E582BAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA414BB-8B89-4FD4-8CE1-3856E582BAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA414BB-8B89-4FD4-8CE1-3856E582BAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA414BB-8B89-4FD4-8CE1-3856E582BAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42DA611-4DF7-41E4-BD7B-EF8645DA7887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42DA611-4DF7-41E4-BD7B-EF8645DA7887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42DA611-4DF7-41E4-BD7B-EF8645DA7887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42DA611-4DF7-41E4-BD7B-EF8645DA7887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87383EB6-1950-4366-A31C-0FB852960D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87383EB6-1950-4366-A31C-0FB852960D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87383EB6-1950-4366-A31C-0FB852960D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87383EB6-1950-4366-A31C-0FB852960D68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6219D74-8AA8-4C76-985A-B09D9BEEF2EB} = {89291785-43CF-43D2-983E-DC8A7FE30F85}
+		{A519BF04-3850-48A0-A9B1-C723D0594972} = {89291785-43CF-43D2-983E-DC8A7FE30F85}
+		{0CA414BB-8B89-4FD4-8CE1-3856E582BAF6} = {89291785-43CF-43D2-983E-DC8A7FE30F85}
+		{F42DA611-4DF7-41E4-BD7B-EF8645DA7887} = {A5CD03AB-941C-4BE8-87CA-9200E2486704}
+		{87383EB6-1950-4366-A31C-0FB852960D68} = {A5CD03AB-941C-4BE8-87CA-9200E2486704}
+	EndGlobalSection
+EndGlobal
